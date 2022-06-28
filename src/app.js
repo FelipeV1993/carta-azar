@@ -47,7 +47,7 @@ function cartaRandom(cartas) {
     '<span class="carta-numero-pinta top">' +
     cartaNumero +
     icono +
-    "</span>" +
+    "</span>" + //por alguna razon los iconos de espada y trebol de fontawesome no cargan
     '<span class="carta-pinta">' +
     cartaNumero +
     "</span>" +
