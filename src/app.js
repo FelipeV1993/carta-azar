@@ -37,9 +37,9 @@ function cartaRandom(cartas) {
     : cartaPinta === "Corazon"
     ? (icono = `<i class="fa-solid fa-heart"></i>`)
     : cartaPinta === "Espada"
-    ? (icono = `espada`)
+    ? (icono = `&spades;`)
     : cartaPinta === "Trebol"
-    ? (icono = ` trebol`)
+    ? (icono = ` &clubs;`)
     : (icono = "error");
   const carta = document.createElement("div");
   carta.classList.add("carta", cartaPinta.toLowerCase());
